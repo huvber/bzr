@@ -1,0 +1,10 @@
+$forColor: #e0ecff;
+$bacColor: #2a2a2a;
+
+@function h($from:1, $to:6) {
+  @if $from == $to {
+    @return 'h#{$from}';
+  } @else {
+    @return 'h#{$from},' + h($from+1, $to);
+  }
+}

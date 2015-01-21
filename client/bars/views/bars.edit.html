@@ -1,0 +1,10 @@
+<template name="barsEdit">
+  {{#if newbar}}
+    <h1>Nuovo Bar</h1>
+  {{else}}
+    <h1>{{nome}} - <em>Modifica</em></h1>
+  {{/if}}
+  <div class="bar editor">
+    {{> quickForm collection="Bars"}}
+  </div>
+</template>

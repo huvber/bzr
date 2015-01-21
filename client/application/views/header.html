@@ -5,5 +5,18 @@
         <h1><a href="/">Buzzer</a></h1>
       </li>
     </ul>
+    <section class="top-bar-section">
+      <ul class="right">
+        <!-- TODO mettere il controllo admin-->
+        <li><a href="{{pathFor 'newBar'}}">Nuovo Bar</a></li>
+        <li><a href="{{pathFor 'newStyle'}}">Nuovo Stile</a></li>
+        <li class="active"><a href="{{pathFor 'signIn' }}">Sign In</a></li>
+      </ul>
+
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li><a href="{{pathFor 'home'}}">Home</a></li>
+      </ul>
+    </section>
   </header>
 </template>

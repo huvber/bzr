@@ -1,0 +1,18 @@
+@import "globals.scss";
+body {
+  background-color: $bacColor;
+  color: $forColor;
+}
+#{h(1,6)}{
+    color:$forColor;
+}
+.editor{
+  label.control-label{
+    color: $forColor;
+  }
+  .panel {
+    label.control-label{
+      color: $bacColor;
+    }
+  }
+}

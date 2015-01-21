@@ -4,5 +4,5 @@
   "user": "ubuntu",
   "port": "22",
   "remote_path": "/home/ubuntu/buz",
-  "ssh_key_file": "d:/Programs/lucaluca.pem"
+  "ssh_key_file": "d:\\Programs\\lucaluca.pem"
 }

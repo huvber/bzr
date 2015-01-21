@@ -1,0 +1,13 @@
+<template name="stylesList">
+  <h2>Lista Template per pagina Bar</h2>
+  <ul class="styleList">
+    {{#each styles}}
+      <li title="{{descrizione}}">
+        <a href="{{pathFor 'editStyles'}}" >
+          <img src="public/img/styles/{{img}}" alt="{{nome}}" />
+          <span class="name">{{nome}}</span>
+        </a>
+      </li>
+    {{/each}}
+  </ul>
+</template>

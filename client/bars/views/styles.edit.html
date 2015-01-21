@@ -1,0 +1,10 @@
+<template name="stylesEdit">
+  {{#if newstyle}}
+  <h1>Nuovo Stile Bar</h1>
+  {{else}}
+  <h1>{{style.nome}} - <em>Modifica</em></h1>
+  {{/if}}
+  <div class="style editor">
+    {{> quickForm data-new=newstyle collection="Styles" doc=style}}
+  </div>
+</template>
